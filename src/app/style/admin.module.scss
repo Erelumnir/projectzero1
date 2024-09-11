@@ -1,0 +1,47 @@
+.adminContainer {
+    margin: 20px;
+
+    .adminTitle {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .cardForm {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .adminInput {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .adminButton {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #0070f3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #005bb5;
+            }
+        }
+    }
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+}

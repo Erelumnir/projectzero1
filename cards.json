@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Patient Zero",
+    "description": "You began all of this.",
+    "cost": "3",
+    "attack": "1",
+    "hp": "5",
+    "armor": "",
+    "frontImage": "/card1.webp",
+    "backImage": ""
+  },
+  {
+    "id": 2,
+    "name": "Cheerleader",
+    "description": "Cheering for the Undead",
+    "cost": "3",
+    "attack": "3",
+    "hp": "1",
+    "armor": "0",
+    "frontImage": "/card2.webp",
+    "backImage": ""
+  },
+  {
+    "id": 3,
+    "name": "Student",
+    "description": "Student of the Undead",
+    "cost": "2",
+    "attack": "2",
+    "hp": "1",
+    "armor": "0",
+    "frontImage": "/card3.webp",
+    "backImage": ""
+  },
+  {
+    "id": 4,
+    "name": "Teacher",
+    "description": "Teacher of the Undead",
+    "cost": "4",
+    "attack": "2",
+    "hp": "4",
+    "armor": "0",
+    "frontImage": "/card4.webp",
+    "backImage": ""
+  }
+]
