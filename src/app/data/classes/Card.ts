@@ -1,4 +1,4 @@
-// Card.ts
+// Card.ts ('../data/classes/Card';)
 export class Card {
     id: number;
     name: string;

@@ -1,0 +1,56 @@
+.deckbuilderContainer {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+
+.availableCards,
+.activeDeck {
+    margin-bottom: 20px;
+}
+
+.cardsList,
+.deckList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cardItem,
+.deckCardItem {
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .cardImage {
+        width: 100px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    button {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 12px;
+        
+        cursor: pointer;
+    }
+}
+
+.message {
+    color: red;
+    margin-bottom: 10px;
+}
