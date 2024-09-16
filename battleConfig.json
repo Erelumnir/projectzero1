@@ -1,0 +1,35 @@
+[
+    {
+        "battleID": 1,
+        "enemyDeck": [
+            103,
+            103,
+            103
+        ]
+    },
+    {
+        "battleID": 2,
+        "enemyDeck": [
+            102,
+            102
+        ]
+    },
+    {
+        "battleID": 3,
+        "enemyDeck": [
+            102,
+            102,
+            103,
+            103,
+            103
+        ]
+    },
+    {
+        "battleID": 4,
+        "enemyDeck": [
+            104,
+            103,
+            103
+        ]
+    }
+]

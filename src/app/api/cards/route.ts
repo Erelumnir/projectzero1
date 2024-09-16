@@ -26,7 +26,7 @@ const writeCardsToFile = (cards: any) => {
 
 // Validation function to check if the card has all required fields
 const validateCardData = (card: any) => {
-    const requiredFields = ['name', 'description', 'cost', 'attack', 'hp', 'frontImage'];
+    const requiredFields = ['id', 'name', 'description', 'cost', 'attack', 'hp', 'frontImage'];
     for (const field of requiredFields) {
         if (!card[field]) {
             return `Missing required field: ${field}`;
@@ -72,13 +72,11 @@ export async function POST(request: Request) {
         // Read existing cards
         const cards = readCardsFromFile();
 
-        // Check if the name already exists
-        if (cards.some((card: any) => card.name === newCard.name)) {
-            return NextResponse.json({ error: 'Card with this name already exists.' }, { status: 400 });
+        // Check if the id already exists
+        if (cards.some((card: any) => card.id === newCard.id)) {
+            return NextResponse.json({ error: 'Card with this id already exists.' }, { status: 400 });
         }
 
-        // Add a new ID and push the new card
-        newCard.id = cards.length ? cards[cards.length - 1].id + 1 : 1;
         cards.push(newCard);
 
         // Write the updated cards array to the file

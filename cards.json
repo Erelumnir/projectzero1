@@ -6,7 +6,7 @@
     "cost": "3",
     "attack": "1",
     "hp": "5",
-    "armor": "",
+    "armor": "0",
     "frontImage": "/card1.webp",
     "backImage": ""
   },
@@ -41,6 +41,39 @@
     "hp": "4",
     "armor": "0",
     "frontImage": "/card4.webp",
+    "backImage": ""
+  },
+  {
+    "id": 102,
+    "name": "Cheerleader",
+    "description": "Part of the Cheersquad",
+    "cost": "3",
+    "attack": "3",
+    "hp": "1",
+    "armor": "0",
+    "frontImage": "/card102.webp",
+    "backImage": ""
+  },
+  {
+    "id": "103",
+    "name": "Student",
+    "description": "A student of Angel U",
+    "cost": "2",
+    "attack": "2",
+    "hp": "1",
+    "armor": "0",
+    "frontImage": "/card103.webp",
+    "backImage": ""
+  },
+  {
+    "id": "104",
+    "name": "Teacher",
+    "description": "Teacher at Angel U",
+    "cost": "4",
+    "attack": "2",
+    "hp": "4",
+    "armor": "0",
+    "frontImage": "/card104.webp",
     "backImage": ""
   }
 ]

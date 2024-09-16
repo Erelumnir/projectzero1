@@ -1,0 +1,56 @@
+.combatContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.topSection,
+.middleSection,
+.bottomSection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.enemyDeck,
+.playerActiveCards,
+.playerHand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cardItem {
+    width: 120px;
+    /* Same width as deckbuilder */
+    height: auto;
+    text-align: center;
+}
+
+.cardItem img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardItem h4 {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.cardItem p {
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+.canAttack {
+    border: 2px solid green;
+}
+
+.cannotAttack {
+    border: 2px solid red;
+}
